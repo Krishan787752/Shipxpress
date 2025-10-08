@@ -34,7 +34,7 @@ const Sidebar = ({ isOpen }) => {
         }}
       >
         <img
-          src={Logo}
+          src
           alt="Logo"
           style={{
             height: "40px",
