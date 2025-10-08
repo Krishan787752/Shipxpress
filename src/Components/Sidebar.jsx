@@ -34,13 +34,13 @@ const Sidebar = ({ isOpen }) => {
         }}
       >
         <img
-          src
+          src={Logo}
           alt="Logo"
           style={{
-            height: "40px",
-            width: isOpen ? "120px" : "40px",
+            height: "100%",
+            width: isOpen ? "100%" : "90px",
             transition: "all 0.3s ease",
-            objectFit: "contain",
+            objectFit: "cover",
           }}
         />
       </div>
